@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300);
-
 body {
 	background: url("../img/house.jpg") no-repeat center fixed #2d2e2e;
 	background-size: cover;
@@ -9,14 +7,14 @@ body {
 .transbox {
 	background-color: rgba(20, 45, 45, 0.5);
 	position: relative;
-	padding: 1em;
-	padding-bottom: 4em;
+	padding: 1rem;
 	max-width: 450px;
 	margin: 230px auto;
+	text-align: center;
 }
 
 .transbox img {
-	margin-left: 28%;
+	margin: 0 auto;
 	border-radius: 50%;
 }
 
@@ -35,8 +33,9 @@ body {
 .links {
 	border-top: 1px solid #fff;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	list-style: none;
+	padding: 10px 0;
 	padding-top: 0.8em;
 } 
 
